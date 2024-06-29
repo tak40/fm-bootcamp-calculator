@@ -44,6 +44,8 @@ body {
   border-top-right-radius: 15px; /* Round top-right corner */
 }
 
+/* BUTTONS */
+
 .calc-buttons {
   display: contents; /* Ensure buttons are part of the grid layout */
 }
@@ -59,13 +61,25 @@ body {
   align-items: center;
 }
 
-.button.divide,
-.button.multiply,
-.button.subtract,
-.button.add,
-.button.equals {
-  background-color: #f0a500;
+.button:hover {
+  background-color: #ebebeb;
+}
+
+.button:active {
+  background-color: #bbbcbe;
+}
+
+.button-operator {
+  background-color: #df974c;
   color: white;
+}
+
+.button-operator:hover {
+  background-color: #dfb07e;
+}
+
+.button-operator:active {
+  background-color: #dd8d37;
 }
 
 .button.c {
