@@ -50,7 +50,7 @@ body {
   display: contents; /* Ensure buttons are part of the grid layout */
 }
 
-.button {
+.calc-button {
   width: 100%;
   height: 100%;
   font-size: 2.5rem;
@@ -61,11 +61,11 @@ body {
   align-items: center;
 }
 
-.button:hover {
+.calc-button:hover {
   background-color: #ebebeb;
 }
 
-.button:active {
+.calc-button:active {
   background-color: #bbbcbe;
 }
 
@@ -82,17 +82,17 @@ body {
   background-color: #dd8d37;
 }
 
-.button.c {
+.calc-button.c {
   grid-column: 1 / 3;
 }
 
-.button.zero {
+.calc-button.zero {
   grid-column: 1 / 4; /* Span first three columns */
   grid-row: 6; /* Sixth row */
   border-bottom-left-radius: 15px; /* Round bottom-left corner */
 }
 
-.button.equals {
+.calc-button.equals {
   grid-column: 4 / 5;
   border-bottom-right-radius: 15px; /* Round bottom-right corner */
 }
