@@ -77,6 +77,8 @@ function flushOperation(intBuffer) {
   } else if (previousOperator === "÷") {
     runningTotal /= intBuffer;
   }
+
+  runningTotal = parseFloat(runningTotal.toFixed(6));
 }
 
 function handleNumber(numberString) {
