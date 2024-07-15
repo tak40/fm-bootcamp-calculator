@@ -1,4 +1,4 @@
-# Calculator Project
+# Frontend Master Bootcamp Calculator Project
 
 ## Introduction
 
