@@ -14,7 +14,7 @@ You can view the live version of the project [here](https://frontend-masters-cal
 
 - **begin/**: Contains the initial setup of the project.
   - **css/**: Stylesheets with a modern design.
-  - **calculator.html**: Initial HTML file.
+  - **index.html**: Initial HTML file.
 - **end/**: Contains the final version of the project provided by the instructor.
 
 ## Features
@@ -42,5 +42,5 @@ To get started with this project, clone the repository and open the `calculator.
 ```sh
 git clone https://github.com/tak40/FM-BOOTCAMP-CALCULATOR.git
 cd FM-BOOTCAMP-CALCULATOR/begin
-open calculator.html
+open index.html
 ```
