@@ -6,6 +6,10 @@ This project is part of the Frontend Masters Bootcamp. It focuses on creating a 
 
 ![Screenshot](begin/img/screenshot.png)
 
+## Live Site
+
+You can view the live version of the project [here](https://frontend-masters-calculator.netlify.app/).
+
 ## Project Structure
 
 - **begin/**: Contains the initial setup of the project.
